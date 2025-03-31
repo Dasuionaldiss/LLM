@@ -11,8 +11,6 @@ from io import BytesIO
 # def load_image_from_path(image_path):
 #     with open(image_path, "rb") as image_file:
 #         return Image.from_bytes(image_file.read())
-set
-GOOGLE_APPLICATION_CREDENTIALS= "chess-pgn-api-fb4ebd290ce8.json"
 
 def load_image_from_file(image_path):
     if image_path.startswith("http"):  # Check if it's a URL
